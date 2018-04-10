@@ -1,0 +1,38 @@
+{
+  "name": "front-end-billet-grunt",
+  "version": "0.0.1",
+  "description": "Заготовка для быстрого создания сайтов на grunt",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "front-end-billet",
+    "grunt"
+  ],
+  "author": "Maksim Jhuchkov",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.2",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-css-mqpacker": "^3.0.1",
+    "grunt-css-url-embed": "^1.10.0",
+    "grunt-eslint": "^20.1.0",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-sass": "^2.1.0",
+    "grunt-twig-render": "^1.8.1",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "grunt-zip": "^0.17.1"
+  }
+}

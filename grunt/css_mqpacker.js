@@ -7,7 +7,7 @@ module.exports = {
 
     expand: false,
     cwd: '',
-    src: 'front-end/tmp/css/main-pref.css',
-    dest: 'front-end/tmp/css/main-mqr.css'
+    src: './src/tmp/css/main-pref.css',
+    dest: './src/tmp/css/main-mqr.css'
   }
 };

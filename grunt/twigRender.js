@@ -7,9 +7,9 @@ module.exports = {
           title: 'Главная страница'
         },
         expand: true,
-        cwd: 'front-end/templates/pages/',
+        cwd: './src/templates/pages/',
         src: ['*.twig'],
-        dest: 'public/',
+        dest: './public/',
         ext: '.html'
       }
     ]

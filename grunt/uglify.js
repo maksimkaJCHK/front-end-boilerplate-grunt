@@ -5,11 +5,11 @@ module.exports = {
       beautify: true
     },
     files: {
-      'public/js/main.js': [
-        'front-end/js-concat/libraries/_jquery-3.1.1.min.js',
-        'front-end/js-concat/plugins/*.js',
-        'front-end/js-concat/main-function.js',
-        'front-end/js-concat/main.js',
+      './public/js/main.js': [
+        './src/js-concat/libraries/_jquery-3.1.1.min.js',
+        './src/js-concat/plugins/*.js',
+        './src/js-concat/main-function.js',
+        './src/js-concat/main.js',
       ]
     }
   },
@@ -18,8 +18,8 @@ module.exports = {
       compress: true
     },
     files: {
-      'public/js/main.min.js': [
-        'public/js/main.js'
+      './public/js/main.min.js': [
+        './public/js/main.js'
       ]
     }
   }

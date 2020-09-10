@@ -1,8 +1,8 @@
 module.exports = {
   styles: {
     files: [
-      'front-end/styles/*.scss',
-      'front-end/styles/**/*.scss'
+      './src/styles/*.scss',
+      './src/styles/**/*.scss'
     ],
     tasks: ['sass', 'autoprefixer', 'css_mqpacker', 'cssUrlEmbed', 'cssmin'],
     options: {
@@ -12,10 +12,10 @@ module.exports = {
   },
   script: {
     files: [
-      'front-end/js-concat/*.js',
-      'front-end/js-concat/**/*.js'
+      './src/script/*.js',
+      './src/script/**/*.js'
     ],
-    tasks: ['uglify'],
+    tasks: ['webpack'],
     options: {
       spawn: false,
       livereload: true
@@ -23,7 +23,7 @@ module.exports = {
   },
   templates: {
     files: [
-      'front-end/templates/**/*.twig'
+      './src/templates/**/*.twig'
     ],
     tasks: ['twigRender'],
     options: {

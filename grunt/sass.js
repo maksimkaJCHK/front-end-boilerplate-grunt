@@ -1,10 +1,13 @@
+const sass = require('node-sass');
+
 module.exports = {
   options: {
+    implementation: sass,
     sourceMap: true
   },
   dist: {
     files: {
-      'front-end/tmp/css/main.css': 'front-end/styles/main.scss'
+      './src/tmp/css/main.css': './src/styles/main.scss'
     }
   }
 };

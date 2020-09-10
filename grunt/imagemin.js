@@ -6,9 +6,9 @@ module.exports = {
     },
     files: [{
       expand: true,
-      cwd: 'public/optimaze_images/',
+      cwd: './public/optimaze_images/',
       src: ['*.{png,jpg,gif}'],
-      dest: 'public/images/'
+      dest: './public/images/'
     }]
   }
 };

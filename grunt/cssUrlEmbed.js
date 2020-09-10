@@ -1,10 +1,10 @@
 module.exports = {
   encodeWithBaseDir: {
     options: {
-      baseDir: './front-end'
+      baseDir: './src'
     },
     files: {
-      'public/css/main.css': ['front-end/tmp/css/main-mqr.css']
+      './public/css/main.css': ['./src/tmp/css/main-mqr.css']
     }
   }
 };

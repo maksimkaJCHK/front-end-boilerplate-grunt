@@ -2,9 +2,9 @@ module.exports = {
   target: {
     files: [{
       expand: true,
-      cwd: 'public/css',
+      cwd: './public/css',
       src: ['main.css'],
-      dest: 'public/css',
+      dest: './public/css',
       ext: '.min.css'
     }]
   }

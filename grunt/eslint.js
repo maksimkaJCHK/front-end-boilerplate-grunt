@@ -1,7 +1,7 @@
 module.exports = {
   options: {
-    configFile: 'front-end/conf/eslint.json',
-    rulePaths: ['front-end/conf/rules']
+    configFile: './src/conf/eslint.json',
+    rulePaths: ['./src/conf/rules']
   },
-  target: ['public/js/main.js']
+  target: ['./src/js/main.js']
 };

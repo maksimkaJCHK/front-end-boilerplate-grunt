@@ -5,7 +5,7 @@ module.exports = {
     'css_mqpacker',
     'cssUrlEmbed',
     'cssmin',
-    'uglify',
+    'webpack',
     'twigRender',
     'connect',
     'watch'

@@ -16,6 +16,6 @@ export default class Primer extends Component {
 }
 
 ReactDOM.render(
-  <Primer name="Максим" />,
+  <Primer />,
   node
 )

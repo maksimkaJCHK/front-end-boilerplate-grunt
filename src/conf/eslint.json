@@ -1,6 +1,8 @@
 {
+  "parser": "babel-eslint",
   "rules": {
     "no-alert": 1,
-    "camelcase": 2
+    "camelcase": 2,
+    "no-unused-vars": 1
   }
 }

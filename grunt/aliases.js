@@ -7,6 +7,19 @@ module.exports = {
     'cssmin',
     'webpack',
     'twigRender',
+    'prettify',
+    'connect',
+    'watch'
+  ],
+  'dev': [
+    'sass',
+    'autoprefixer',
+    'css_mqpacker',
+    'cssUrlEmbed',
+    'cssmin',
+    'webpack',
+    'twigRender',
+    'prettify',
     'connect',
     'watch'
   ],

@@ -1,5 +1,5 @@
 module.exports = {
-  your_target: {
+  target: {
     files : [
       {
         //data: 'path/to/datafile.json',
@@ -9,7 +9,7 @@ module.exports = {
         expand: true,
         cwd: './src/templates/pages/',
         src: ['*.twig'],
-        dest: './public/',
+        dest: './src/tmp/',
         ext: '.html'
       }
     ]

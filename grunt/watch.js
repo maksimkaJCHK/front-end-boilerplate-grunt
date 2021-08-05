@@ -25,10 +25,10 @@ module.exports = {
     files: [
       './src/templates/**/*.twig'
     ],
-    tasks: ['twigRender'],
+    tasks: ['twigRender', 'prettify'],
     options: {
       spawn: false,
       livereload: true
     },
-  }
+  },
 };

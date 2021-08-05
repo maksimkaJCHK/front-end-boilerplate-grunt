@@ -11,3 +11,9 @@
 {% block footer %}
   {% include '../layout/footer.twig' with vars only %}
 {% endblock footer %}
+
+{% block afterHeader %}
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
+{% endblock afterHeader %}

@@ -11,6 +11,16 @@ module.exports = {
     'connect',
     'watch'
   ],
+  'build': [
+    'sass',
+    'autoprefixer',
+    'css_mqpacker',
+    'cssUrlEmbed',
+    'cssmin',
+    'webpack',
+    'twigRender',
+    'prettify',
+  ],
   'dev': [
     'sass',
     'autoprefixer',

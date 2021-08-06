@@ -1,3 +1,57 @@
 module.exports = {
-  './arhive/project.zip': ['public/*', 'public/*/*', 'public/*/*/*']
+  'client': {
+    src: [
+      './public/*',
+      './public/*/*',
+      './public/*/*/*',
+      './public/*/*/*/*',
+      './public/*/*/*/*/*',
+      './public/*/*/*/*/*/*'
+    ],
+    dest: './arhive/mailProject.zip',
+    compression: 'DEFLATE'
+  },
+  'project': {
+    src: [
+      './grunt/*',
+      './public/*',
+      './public/*/*',
+      './public/*/*/*',
+      './public/*/*/*/*',
+      './public/*/*/*/*/*',
+      './public/*/*/*/*/*/*',
+      './src/conf/*',
+      './src/conf/*/*',
+      './src/encodeImg/*',
+      './src/encodeImg/*/*',
+      './src/encodeImg/*/*/*',
+      './src/script/*',
+      './src/script/*/*',
+      './src/script/*/*/*',
+      './src/script/*/*/*/*',
+      './src/script/*/*/*/*/*/*',
+      './src/styles/*',
+      './src/styles/*/*',
+      './src/styles/*/*/*',
+      './src/styles/*/*/*/*',
+      './src/styles/*/*/*/*/*/*',
+      './src/templates/*',
+      './src/templates/*/*',
+      './src/templates/*/*/*',
+      './src/templates/*/*/*/*',
+      './src/templates/*/*/*/*/*/*',
+      './src/tests/*',
+      './src/tests/*/*',
+      './.babelrc',
+      './.gitignore',
+      './LICENSE',
+      './Gruntfile.js',
+      './jest.config.js',
+      './postcss.config.js',
+      './package.json',
+      './README.md',
+    ],
+    dest: './arhive/project.zip',
+    compression: 'DEFLATE'
+  }
 };
